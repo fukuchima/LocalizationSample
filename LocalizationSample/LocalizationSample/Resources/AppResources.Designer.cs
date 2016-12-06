@@ -23,7 +23,7 @@ namespace LocalizationSample.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class AppResources {
+    public class AppResources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -37,7 +37,7 @@ namespace LocalizationSample.Resources {
         ///   このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LocalizationSample.Resources.AppResources", typeof(AppResources).GetTypeInfo().Assembly);
@@ -52,7 +52,7 @@ namespace LocalizationSample.Resources {
         ///   現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -62,27 +62,27 @@ namespace LocalizationSample.Resources {
         }
         
         /// <summary>
-        ///   タッチ に類似しているローカライズされた文字列を検索します。
+        ///   Touch に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string buttonText {
+        public static string buttonText {
             get {
                 return ResourceManager.GetString("buttonText", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   ローカライズサンプル に類似しているローカライズされた文字列を検索します。
+        ///   L10n Sample に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string Title {
+        public static string Title {
             get {
                 return ResourceManager.GetString("Title", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   回タッチされました に類似しているローカライズされた文字列を検索します。
+        ///   Touch {0} times. に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        internal static string TouchMSG {
+        public static string TouchMSG {
             get {
                 return ResourceManager.GetString("TouchMSG", resourceCulture);
             }

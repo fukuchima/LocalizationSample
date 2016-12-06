@@ -1,6 +1,5 @@
 ﻿using LocalizationSample.Resources;
 using System;
-
 using Xamarin.Forms;
 
 namespace LocalizationSample
@@ -13,8 +12,11 @@ namespace LocalizationSample
 
         public MainView()
         {
-            Title = "ローカライズサンプル";
-            button.Text = "タッチ";
+
+            //Title = "ローカライズサンプル";
+            //button.Text = "タッチ";
+            Title = AppResources.Title;
+            button.Text = AppResources.buttonText;
 
 
             button.Clicked += Button_Clicked;
@@ -35,7 +37,8 @@ namespace LocalizationSample
         private void Button_Clicked(object sender, EventArgs e)
         {
             count += 1;
-            label.Text = count.ToString() + "回タッチされました";
+            // label.Text = count.ToString() + "回タッチされました。";
+            label.Text = String.Format(AppResources.TouchMSG, count.ToString());
         }
     }
 }
