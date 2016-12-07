@@ -15,6 +15,8 @@ namespace LocalizationSample
 
             //Title = "ローカライズサンプル";
             //button.Text = "タッチ";
+
+            // リソースファイルに定義した文字列を取得して設定
             Title = AppResources.Title;
             button.Text = AppResources.buttonText;
 
@@ -38,6 +40,7 @@ namespace LocalizationSample
         {
             count += 1;
             // label.Text = count.ToString() + "回タッチされました。";
+            // リソースファイルに定義した文字列を取得して設定
             label.Text = String.Format(AppResources.TouchMSG, count.ToString());
         }
     }

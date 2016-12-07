@@ -14,9 +14,10 @@ namespace LocalizationSample
             // The root page of your application
 
             // C#で画面定義
-              var content = new MainView();
+            //  var content = new MainView();
             // XAMLで画面定義
-            //var content = new XamlMainView();
+            LocalizationSample.Resources.AppResources.Culture = new System.Globalization.CultureInfo("en-US");
+            var content = new XamlMainView();
 
             MainPage = new NavigationPage(content);
         }

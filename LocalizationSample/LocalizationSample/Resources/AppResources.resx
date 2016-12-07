@@ -126,7 +126,7 @@
     <comment>タイトル</comment>
   </data>
   <data name="TouchMSG" xml:space="preserve">
-    <value>Touch {0} times.</value>
+    <value>Tapped {0} times.</value>
     <comment>メッセージ</comment>
   </data>
 </root>

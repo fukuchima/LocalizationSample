@@ -23,7 +23,7 @@ namespace LocalizationSample.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class AppResources {
+    internal class AppResources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -37,7 +37,7 @@ namespace LocalizationSample.Resources {
         ///   このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LocalizationSample.Resources.AppResources", typeof(AppResources).GetTypeInfo().Assembly);
@@ -52,7 +52,7 @@ namespace LocalizationSample.Resources {
         ///   現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -64,7 +64,7 @@ namespace LocalizationSample.Resources {
         /// <summary>
         ///   Touch に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string buttonText {
+        internal static string buttonText {
             get {
                 return ResourceManager.GetString("buttonText", resourceCulture);
             }
@@ -73,16 +73,16 @@ namespace LocalizationSample.Resources {
         /// <summary>
         ///   L10n Sample に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Title {
+        internal static string Title {
             get {
                 return ResourceManager.GetString("Title", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Touch {0} times. に類似しているローカライズされた文字列を検索します。
+        ///   Tapped {0} times. に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string TouchMSG {
+        internal static string TouchMSG {
             get {
                 return ResourceManager.GetString("TouchMSG", resourceCulture);
             }
